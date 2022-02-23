@@ -1,0 +1,13 @@
+digraph "classes" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{Door|current\ldirc\lnext\lstatus\l|print_door()\l}", shape="record"];
+"1" [label="{Game|COMMANDS : list\lfilename\lhouse\lplayer\l|boot()\lchange_name(name)\lclose(direction)\lcommands()\ldrop(i)\ldrop_all()\leaster()\lgo(direction)\lholds()\litem_info(i)\lmirror()\lopen(direction)\lplay()\lread(item)\lshow()\lsit()\lstand()\ltake(i)\lunlock(direction)\lwhere_at()\l}", shape="record"];
+"2" [label="{House|rooms : dict\l|add_room(room_o)\linfo()\lprint_house()\l}", shape="record"];
+"3" [label="{Item|location\lname\lspecies\lusage : str\l|print_item()\l}", shape="record"];
+"4" [label="{Player|items : dict\lname : str\lposition : str\lstanding : bool\l|}", shape="record"];
+"5" [label="{Room|doors : dict\litems : dict\lname\l|info()\lprint_room()\l}", shape="record"];
+"2" -> "1" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="house", style="solid"];
+"4" -> "1" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="player", style="solid"];
+"4" -> "1" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="player", style="solid"];
+}
