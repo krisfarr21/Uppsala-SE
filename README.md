@@ -11,8 +11,6 @@ Course link: https://www.uu.se/en/admissions/freestanding-courses/course-syllabu
 - **RNN based POS Tagger**: POS tagging using LSTMs and mini-batch training, evaluating the model on several languages.
 - **Gendered Directions in Embeddings**: Testing the hypothesis of https://arxiv.org/abs/1607.06520.
 
-- to continue
-
 ## UU-SE-Artificial-Intelligence
 
 Course Link: https://www.uu.se/en/admissions/freestanding-courses/course-syllabus/?kpid=44419&type=1
