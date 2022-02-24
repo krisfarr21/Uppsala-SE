@@ -1,6 +1,4 @@
-# Uppsala-SE
-
-Repository showcasing some of the work done through the Master's course of Language Technology at Uppsala Universitet.
+# Uppsala-SE - Courses at Uppsala University, Sweden
 
 ## UU-SE-Machine-Learning
 
